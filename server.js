@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
-// Middleware to parse JSON request body  i
+// Middleware to parse JSON request body
 app.use(bodyParser.json());
 
 // Define a route to handle POST requests and return HTML table
